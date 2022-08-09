@@ -11,5 +11,12 @@
 
     <artifactId>order-application</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.food.odering.system</groupId>
+            <artifactId>order-application-service</artifactId>
+        </dependency>
+    </dependencies>
+
 
 </project>

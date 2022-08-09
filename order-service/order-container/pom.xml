@@ -11,5 +11,28 @@
 
     <artifactId>order-container</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.food.odering.system</groupId>
+            <artifactId>order-domain-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.food.odering.system</groupId>
+            <artifactId>order-application-service</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.food.odering.system</groupId>
+            <artifactId>order-application</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.food.odering.system</groupId>
+            <artifactId>order-dataaccess</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.food.odering.system</groupId>
+            <artifactId>order-messaging</artifactId>
+        </dependency>
+    </dependencies>
+
 
 </project>
