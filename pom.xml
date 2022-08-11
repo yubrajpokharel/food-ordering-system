@@ -5,6 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>order-service</module>
+        <module>common</module>
     </modules>
 
     <parent>
@@ -69,6 +70,12 @@
                 <configuration>
                     <release>17</release>
                 </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>com.github.ferstl</groupId>
+                <artifactId>depgraph-maven-plugin</artifactId>
+                <version>4.0.2</version>
             </plugin>
         </plugins>
     </build>
