@@ -10,7 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>order-domain-core</artifactId>
-    <dependencies></dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>com.food.odering.system</groupId>
+            <artifactId>common-domain</artifactId>
+        </dependency>
+    </dependencies>
 
 
 </project>
