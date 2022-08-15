@@ -6,13 +6,13 @@ import java.util.UUID;
 public class StreetAddress {
     private final UUID id;
     private final String street;
-    private final String postalCodel;
+    private final String postalCode;
     private final String city;
 
     public StreetAddress(UUID id, String street, String postalCodel, String city) {
         this.id = id;
         this.street = street;
-        this.postalCodel = postalCodel;
+        this.postalCode = postalCodel;
         this.city = city;
     }
 
@@ -24,8 +24,8 @@ public class StreetAddress {
         return street;
     }
 
-    public String getPostalCodel() {
-        return postalCodel;
+    public String getPostalCode() {
+        return postalCode;
     }
 
     public String getCity() {
@@ -37,11 +37,11 @@ public class StreetAddress {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         StreetAddress that = (StreetAddress) o;
-        return Objects.equals(id, that.id) && Objects.equals(street, that.street) && Objects.equals(postalCodel, that.postalCodel) && Objects.equals(city, that.city);
+        return Objects.equals(id, that.id) && Objects.equals(street, that.street) && Objects.equals(postalCode, that.postalCode) && Objects.equals(city, that.city);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, street, postalCodel, city);
+        return Objects.hash(id, street, postalCode, city);
     }
 }
